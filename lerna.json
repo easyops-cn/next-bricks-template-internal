@@ -1,0 +1,17 @@
+{
+  "packages": ["bricks/*", "shared/*"],
+  "version": "independent",
+  "npmClient": "yarn",
+  "stream": true,
+  "useNx": true,
+  "conventionalCommits": true,
+  "command": {
+    "publish": {
+      "npmClient": "npm",
+      "allowBranch": ["master"],
+      "verifyAccess": false,
+      "message": "chore(release): publish",
+      "registry": "https://registry.npm.easyops.local"
+    }
+  }
+}

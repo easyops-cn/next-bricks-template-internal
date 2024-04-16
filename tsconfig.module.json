@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "declaration": false,
+    "sourceMap": true,
+    "importHelpers": true,
+    "moduleResolution": "Bundler",
+    "esModuleInterop": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "strict": true,
+    "jsx": "preserve"
+  }
+}

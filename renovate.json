@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json.schemastore.org/renovate",
+  "extends": ["config:base"],
+  "prHourlyLimit": 2,
+  "rangeStrategy": "bump",
+  "semanticCommits": "enabled",
+  "commitMessagePrefix": "chore(deps):",
+  "ignorePresets": [":ignoreModulesAndTests"],
+  "packageRules": [
+    {
+      "excludePackagePatterns": ["^@next-core/"],
+      "matchManagers": ["npm"],
+      "enabled": false
+    },
+    {
+      "matchPackagePatterns": ["^@next-core/"],
+      "groupName": "next-core packages",
+      "assignees": ["weareoutman"]
+    }
+  ],
+  "postUpdateOptions": ["yarnDedupeHighest"]
+}

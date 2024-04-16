@@ -1,0 +1,81 @@
+{
+  "name": "YOUR-REPOSITORY",
+  "private": true,
+  "homepage": "https://git.easyops.local/anyclouds/YOUR-REPOSITORY",
+  "repository": {
+    "type": "git",
+    "url": "git@git.easyops.local.com:anyclouds/YOUR-REPOSITORY.git"
+  },
+  "license": "UNLICENSED",
+  "scripts": {
+    "prepare": "husky install",
+    "serve": "brick-container-serve",
+    "serve:size-check": "brick-container-serve --no-remote --size-check",
+    "serve:playground": "brick-playground-serve",
+    "start": "lerna run start",
+    "build": "npm run build:shared && npm run build:bricks",
+    "build:shared": "lerna run build --scope '@shared/*'",
+    "build:bricks": "npm run build:bricks:types && npm run build:bricks:main",
+    "build:bricks:types": "lerna run build:types --scope '@bricks/*'",
+    "build:bricks:main": "lerna run build:main --scope '@bricks/*'",
+    "prebuild:bricks:main": "pre-build-next-bricks",
+    "postbuild:bricks:main": "post-build-next-bricks",
+    "test": "test-next-project",
+    "test:ci": "lerna run test:ci --",
+    "pretest:ci": "pre-build-next-bricks",
+    "posttest:ci": "post-build-next-bricks",
+    "size-check": "npx start-server-and-test serve:size-check http://localhost:8081/ cypress:run:no-record",
+    "size-check:ci": "npx start-server-and-test serve:size-check http://localhost:8081/ cypress:run",
+    "lint-staged": "lint-staged",
+    "yo": "yo"
+  },
+  "browserslist": {
+    "development": [
+      "extends @next-core/browserslist-config-next/development"
+    ],
+    "production": [
+      "extends @next-core/browserslist-config-next/production"
+    ]
+  },
+  "prettier": {
+    "trailingComma": "es5"
+  },
+  "devDependencies": {
+    "@next-core/babel-preset-next": "^1.0.15",
+    "@next-core/brick-container": "^3.14.8",
+    "@next-core/brick-playground": "^1.10.149",
+    "@next-core/browserslist-config-next": "^1.0.3",
+    "@next-core/eslint-config-next": "^2.0.18",
+    "@next-core/test-next": "^1.0.17",
+    "@next-core/yo": "^1.5.43",
+    "@types/history": "^4.7.11",
+    "@types/jest": "^29.5.12",
+    "@types/js-yaml": "^3.12.10",
+    "@types/lodash": "^4.17.0",
+    "@types/node": "^20.12.7",
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25",
+    "@typescript-eslint/eslint-plugin": "^7.7.0",
+    "concurrently": "^8.2.2",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "husky": "^8.0.3",
+    "lerna": "^8.1.2",
+    "lint-staged": "^15.2.2",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5"
+  },
+  "workspaces": [
+    "bricks/*",
+    "shared/*"
+  ],
+  "resolutions": {
+    "@babel/parser": "^7.24.4",
+    "@babel/runtime": "^7.24.4",
+    "@types/react": "^18.2.79",
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1"
+  }
+}
