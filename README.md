@@ -5,7 +5,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/easyops-cn/YOUR-REPOSITORY/badge.svg?branch=master)](https://coveralls.io/github/easyops-cn/YOUR-REPOSITORY?branch=master)
 -->
 
-Generated from template [easyops-cn/next-bricks-template].
+Generated from template [easyops-cn/next-bricks-template-internal].
 
 **Please change all occurrences of `YOUR-REPOSITORY` to your own repository name.**
 
