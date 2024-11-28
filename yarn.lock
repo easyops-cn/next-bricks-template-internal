@@ -1392,6 +1392,41 @@
   dependencies:
     call-bind "^1.0.5"
 
+"@next-bricks/basic@^1.48.2":
+  version "1.48.2"
+  resolved "https://registry.npmmirror.com/@next-bricks/basic/-/basic-1.48.2.tgz#660d67945ee4171dbac73723fa8f49b95d8bff84"
+  integrity sha512-0TxhQV3f+TB1h82QJ8CbAyFdcTa/6iSSUcRmU+B/kVOd7TSrGTQ+cQlHi7uRaklN1FiVKcbcgWexqHSZZP3QrA==
+
+"@next-bricks/containers@^1.12.2":
+  version "1.12.2"
+  resolved "https://registry.npmmirror.com/@next-bricks/containers/-/containers-1.12.2.tgz#9d4deebbbd2b9b4b5f2554999f152ea3c3c521d4"
+  integrity sha512-mqr9ztPuUFOOao+UyP5H46e3xZAkJDx1NKVlePj7OXFOysPLtVbSO1AHgUxJcFOz/tnB0eg08kpqhxy9lkezOw==
+
+"@next-bricks/form@^1.14.1":
+  version "1.14.1"
+  resolved "https://registry.npmmirror.com/@next-bricks/form/-/form-1.14.1.tgz#c4de74c8d593857f91a120765a0ebc6057c39361"
+  integrity sha512-QfRc9GPLx3Ra69IhCKscGKcTGcEGTBdiBwOFOJJX8clxLuuj1XLO6koPKAFFgOayXQ44dKN/BJoVYABuUQ0YOw==
+
+"@next-bricks/icons@^1.3.9":
+  version "1.3.9"
+  resolved "https://registry.npmmirror.com/@next-bricks/icons/-/icons-1.3.9.tgz#ad20260416e2c1238f5533d9e858c7dc1d50988e"
+  integrity sha512-ZRYFE5jkyygQuq9Uiz7eiDNvVArjs/JekywA/Uw0n9Celx3bqKT2rzUMsAVdNcCFm5dqqWPvtcX2ONi8Xqa4+A==
+
+"@next-bricks/illustrations@^1.3.1":
+  version "1.3.1"
+  resolved "https://registry.npmmirror.com/@next-bricks/illustrations/-/illustrations-1.3.1.tgz#ebacf7207e72a1857ba8381e7f597a47f50e75a0"
+  integrity sha512-ME704DVgSfu2I16CCih2e9zELF/O0T4z/Yi69WTbI+pcf6A283o8aCo2+0c10VNh4Y+qgugfot9vOq8MwUXCuw==
+
+"@next-bricks/shoelace@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.npmmirror.com/@next-bricks/shoelace/-/shoelace-1.1.2.tgz#0b81e793f85925f4dc9aef92fd9b8fad06048f77"
+  integrity sha512-AWit3ah9S1y5F+WEKYUSpuCo4hjvM8g1T0JLFvW0AoLOFoh975GGvgaAUwogpod8izEIvcP9AR0ALB3V5L4ZSA==
+
+"@next-bricks/v2-adapter@^1.3.1":
+  version "1.3.1"
+  resolved "https://registry.npmmirror.com/@next-bricks/v2-adapter/-/v2-adapter-1.3.1.tgz#a5174ed6bf289285693d131cd764f04de47cdca9"
+  integrity sha512-kHGM86Nj/XZmH5Wu0PqmXaoHtqg99ZkABJEvQsW7NYj3uftFacZlaiNnyNGgc0DdSsLn6xIoI2Z0Z0ZXYbPJog==
+
 "@next-core/babel-preset-next@^1.0.21":
   version "1.0.21"
   resolved "https://registry.npmmirror.com/@next-core/babel-preset-next/-/babel-preset-next-1.0.21.tgz#c96c538845926653160dcde791935e3d7f6903e5"
