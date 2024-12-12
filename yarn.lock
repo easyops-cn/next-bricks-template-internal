@@ -1439,10 +1439,10 @@
     "@babel/preset-typescript" "^7.24.7"
     "@babel/runtime" "^7.25.6"
 
-"@next-core/brick-container@^3.19.22":
-  version "3.19.22"
-  resolved "https://registry.npmmirror.com/@next-core/brick-container/-/brick-container-3.19.22.tgz#ee685c49d38400db7b5314bd882b4d7fcd10e97d"
-  integrity sha512-a2hQkb7MuqExLuST6bNR5+dh91pqYsppjSQr/ZKpmnk5A7qD4CXsXXmCY/ZztM3ZdSnoyJ4zoED73R4IfqBPSQ==
+"@next-core/brick-container@^3.19.24":
+  version "3.19.24"
+  resolved "https://registry.npmmirror.com/@next-core/brick-container/-/brick-container-3.19.24.tgz#18b9985632fc241175f290574ae9b1066e56f702"
+  integrity sha512-qxWkMD/+PN4WSHua+ceArHvDKiIkYuEEyC7vMXqFsDoe90oXsElYmqBdsnTwA9BVcT9yPSyjRl+/W6BCd2whRw==
   dependencies:
     "@next-core/serve-helpers" "^1.2.4"
     body-parser "^1.20.3"
@@ -1463,10 +1463,10 @@
   resolved "https://registry.npmmirror.com/@next-core/brick-manifest/-/brick-manifest-0.7.1.tgz#3c11e7108b2bd147a4e9876fe95e2eb0d723e2dd"
   integrity sha512-g+4m/Ran4ZBIUpIMhqx/fH91F2lYmci18tlI9TCRte2AFnmA/jsTFULdbPQtd/OMIhodrGnjkhN0WshbqeTzew==
 
-"@next-core/brick-playground@^1.15.43":
-  version "1.15.43"
-  resolved "https://registry.npmmirror.com/@next-core/brick-playground/-/brick-playground-1.15.43.tgz#8414a8602240a60ded1465473e6f47f8cab5e170"
-  integrity sha512-jA7Q5aADqS/hFuYI2PFJIFHYKH9yaNNX37+hgDJKoaRcqJ9+nrQZdVghBLtGxZqTxH8b07qygIgxCpcQOw28ww==
+"@next-core/brick-playground@^1.15.45":
+  version "1.15.45"
+  resolved "https://registry.npmmirror.com/@next-core/brick-playground/-/brick-playground-1.15.45.tgz#f3a86df8adb7085812537707b0e7680406a259b7"
+  integrity sha512-jAVonhs4yFG8qj4PJlEqH0AfZbbsgBi7dHtIYO/cqhZ6pP56RLjuYIctHx3E+8I93VQ1y9LSBHCingGdVOLlkQ==
   dependencies:
     "@next-core/doc-helpers" "^0.2.15"
     "@next-core/serve-helpers" "^1.2.4"
@@ -1519,10 +1519,10 @@
     ts-jest-resolver "^2.0.1"
     typescript "^5.6.2"
 
-"@next-core/yo@^1.5.85":
-  version "1.5.85"
-  resolved "https://registry.npmmirror.com/@next-core/yo/-/yo-1.5.85.tgz#5c978cfb3efece5d6d74d98d8b81825166370be3"
-  integrity sha512-6px+qqjX/S79N7qvvJ2i4v2eZOdfhhSAN+E9ow/0XmMdlSa0A5wARBICr0wrLj6hEuEHLsUnGF1TY5YN3uYQhA==
+"@next-core/yo@^1.5.86":
+  version "1.5.86"
+  resolved "https://registry.npmmirror.com/@next-core/yo/-/yo-1.5.86.tgz#84371cc7a0514cfab7e0f583ad4e960f1c632008"
+  integrity sha512-FbOdb+Jqf9CU/cvGXGO73ViXfJPHae/NYCxjbIMbi8Qr8swiUXFx098Ax//xJBBtFtqo0X08wezKB304Nbktdw==
   dependencies:
     minimist "^1.2.8"
     plop "^4.0.1"
