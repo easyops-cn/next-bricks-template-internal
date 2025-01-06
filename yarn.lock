@@ -1427,10 +1427,10 @@
   resolved "https://registry.npmmirror.com/@next-bricks/v2-adapter/-/v2-adapter-1.3.1.tgz#a5174ed6bf289285693d131cd764f04de47cdca9"
   integrity sha512-kHGM86Nj/XZmH5Wu0PqmXaoHtqg99ZkABJEvQsW7NYj3uftFacZlaiNnyNGgc0DdSsLn6xIoI2Z0Z0ZXYbPJog==
 
-"@next-core/babel-preset-next@^1.0.21":
-  version "1.0.21"
-  resolved "https://registry.npmmirror.com/@next-core/babel-preset-next/-/babel-preset-next-1.0.21.tgz#c96c538845926653160dcde791935e3d7f6903e5"
-  integrity sha512-ILFMxpPpGLoy342iVjrUwDYeUeGYxIGf7wxs6+WAV7v/ywUOOvh2inOR+PWjstrw781oAAg5MnIfMzmRxapwtg==
+"@next-core/babel-preset-next@^1.0.22":
+  version "1.0.22"
+  resolved "https://registry.npmmirror.com/@next-core/babel-preset-next/-/babel-preset-next-1.0.22.tgz#45b511200316b89ebb8eff516484e372482f1eef"
+  integrity sha512-6YJrTlEOkVeuBBjd5n9LNnlZ0csAUEW3ISiiSroS1FTRBfPgfXqt33hslTatVMcnLfopjzTxfo2nF4m7YVrzAA==
   dependencies:
     "@babel/plugin-proposal-decorators" "^7.24.7"
     "@babel/plugin-transform-runtime" "^7.25.4"
@@ -1439,10 +1439,10 @@
     "@babel/preset-typescript" "^7.24.7"
     "@babel/runtime" "^7.25.6"
 
-"@next-core/brick-container@^3.19.24":
-  version "3.19.24"
-  resolved "https://registry.npmmirror.com/@next-core/brick-container/-/brick-container-3.19.24.tgz#18b9985632fc241175f290574ae9b1066e56f702"
-  integrity sha512-qxWkMD/+PN4WSHua+ceArHvDKiIkYuEEyC7vMXqFsDoe90oXsElYmqBdsnTwA9BVcT9yPSyjRl+/W6BCd2whRw==
+"@next-core/brick-container@^3.19.28":
+  version "3.19.28"
+  resolved "https://registry.npmmirror.com/@next-core/brick-container/-/brick-container-3.19.28.tgz#a8b0921c55ae6643e83c02532f383d2ee4e8ee52"
+  integrity sha512-qJin3fPmsDK1TEnmkXBtnmC6/JiF9CGQuvY+wZdGFzMVEqe2ZGjHe9rx3vm/hKJsN/99ndZeeLsh30pzn4X6iQ==
   dependencies:
     "@next-core/serve-helpers" "^1.2.4"
     body-parser "^1.20.3"
@@ -1451,7 +1451,7 @@
     compression "^1.7.4"
     express "^4.21.0"
     glob "^8.1.0"
-    http-proxy-middleware "^3.0.2"
+    http-proxy-middleware "^3.0.3"
     js-yaml "^3.14.1"
     lodash "^4.17.21"
     meow "^11.0.0"
@@ -1463,10 +1463,10 @@
   resolved "https://registry.npmmirror.com/@next-core/brick-manifest/-/brick-manifest-0.7.1.tgz#3c11e7108b2bd147a4e9876fe95e2eb0d723e2dd"
   integrity sha512-g+4m/Ran4ZBIUpIMhqx/fH91F2lYmci18tlI9TCRte2AFnmA/jsTFULdbPQtd/OMIhodrGnjkhN0WshbqeTzew==
 
-"@next-core/brick-playground@^1.15.45":
-  version "1.15.45"
-  resolved "https://registry.npmmirror.com/@next-core/brick-playground/-/brick-playground-1.15.45.tgz#f3a86df8adb7085812537707b0e7680406a259b7"
-  integrity sha512-jAVonhs4yFG8qj4PJlEqH0AfZbbsgBi7dHtIYO/cqhZ6pP56RLjuYIctHx3E+8I93VQ1y9LSBHCingGdVOLlkQ==
+"@next-core/brick-playground@^1.15.47":
+  version "1.15.47"
+  resolved "https://registry.npmmirror.com/@next-core/brick-playground/-/brick-playground-1.15.47.tgz#680b28554a2ab067368bbcd3bd68ce7aa865b055"
+  integrity sha512-i2EcqMAlJkfeJFIjaitWbQpzg8qUOrW4JQszRNVQJbnozMLxu14NapEJ6x5Z/nxim1ltAiX56LKXG4vL+dcc5g==
   dependencies:
     "@next-core/doc-helpers" "^0.2.15"
     "@next-core/serve-helpers" "^1.2.4"
@@ -1519,10 +1519,10 @@
     ts-jest-resolver "^2.0.1"
     typescript "^5.6.2"
 
-"@next-core/yo@^1.5.86":
-  version "1.5.86"
-  resolved "https://registry.npmmirror.com/@next-core/yo/-/yo-1.5.86.tgz#84371cc7a0514cfab7e0f583ad4e960f1c632008"
-  integrity sha512-FbOdb+Jqf9CU/cvGXGO73ViXfJPHae/NYCxjbIMbi8Qr8swiUXFx098Ax//xJBBtFtqo0X08wezKB304Nbktdw==
+"@next-core/yo@^1.5.88":
+  version "1.5.88"
+  resolved "https://registry.npmmirror.com/@next-core/yo/-/yo-1.5.88.tgz#212008c365bc9e7231bcef8249cd7b2d54cd225d"
+  integrity sha512-hb7G5nWNSODbvl9PIkyC1UR+0UN3r63jASXmA6RIun7m1ZvVNQ20izHsy9xTq8s/mrgaPyYHsM+0puwEPH18vQ==
   dependencies:
     minimist "^1.2.8"
     plop "^4.0.1"
@@ -4979,7 +4979,7 @@ http-proxy-agent@^7.0.0:
     agent-base "^7.1.0"
     debug "^4.3.4"
 
-http-proxy-middleware@^3.0.2:
+http-proxy-middleware@^3.0.3:
   version "3.0.3"
   resolved "https://registry.npmmirror.com/http-proxy-middleware/-/http-proxy-middleware-3.0.3.tgz#dc1313c75bd00d81e103823802551ee30130ebd1"
   integrity sha512-usY0HG5nyDUwtqpiZdETNbmKtw3QQ1jwYFZ9wi5iHzX2BcILwQKtYDJPo7XHTsu5Z0B2Hj3W9NNnbd+AjFWjqg==
