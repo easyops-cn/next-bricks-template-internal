@@ -53,7 +53,7 @@
     "@next-core/brick-playground": "^1.15.50",
     "@next-core/browserslist-config-next": "^1.1.2",
     "@next-core/build-next-bricks": "^1.23.10",
-    "@next-core/eslint-config-next": "^2.0.26",
+    "@next-core/eslint-config-next": "^3.0.0",
     "@next-core/test-next": "^1.1.8",
     "@next-core/yo": "^1.5.91",
     "@types/history": "^4.7.11",
